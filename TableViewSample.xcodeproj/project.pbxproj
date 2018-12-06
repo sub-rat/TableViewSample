@@ -14,6 +14,7 @@
 		3A6837A921B7F203003AA5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6837A821B7F203003AA5C2 /* Assets.xcassets */; };
 		3A6837AC21B7F203003AA5C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6837AA21B7F203003AA5C2 /* LaunchScreen.storyboard */; };
 		3A6837B721B7F203003AA5C2 /* TableViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6837B621B7F203003AA5C2 /* TableViewSampleTests.swift */; };
+		3A6837C221B7F974003AA5C2 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6837C121B7F974003AA5C2 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3A6837B221B7F203003AA5C2 /* TableViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6837B621B7F203003AA5C2 /* TableViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSampleTests.swift; sourceTree = "<group>"; };
 		3A6837B821B7F203003AA5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6837C121B7F974003AA5C2 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				3A6837AA21B7F203003AA5C2 /* LaunchScreen.storyboard */,
 				3A6837AD21B7F203003AA5C2 /* Info.plist */,
 				3A6837A521B7F202003AA5C2 /* TableViewSample.xcdatamodeld */,
+				3A6837C121B7F974003AA5C2 /* TableCell.swift */,
 			);
 			path = TableViewSample;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				3A6837A121B7F202003AA5C2 /* ViewController.swift in Sources */,
 				3A6837A721B7F202003AA5C2 /* TableViewSample.xcdatamodeld in Sources */,
+				3A6837C221B7F974003AA5C2 /* TableCell.swift in Sources */,
 				3A68379F21B7F202003AA5C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
