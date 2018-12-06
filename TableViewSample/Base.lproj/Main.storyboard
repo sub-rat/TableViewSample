@@ -26,12 +26,16 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <scopeButtonTitles>
+                                        <string>All</string>
                                         <string>Dog</string>
                                         <string>Cat</string>
                                     </scopeButtonTitles>
+                                    <connections>
+                                        <outlet property="delegate" destination="BYZ-38-t0r" id="5Hb-hl-ZZy"/>
+                                    </connections>
                                 </searchBar>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="92" id="9f8-9I-qCd" userLabel="cell" customClass="TableCell" customModule="TableViewSample" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="92" id="9f8-9I-qCd" userLabel="cell" customClass="TableCell" customModule="TableViewSample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="84" width="375" height="92"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9f8-9I-qCd" id="gSR-l6-M32">
@@ -94,7 +98,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="rmZ-De-aVR"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="x3d-Zc-J4n"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="fyG-cn-i4b"/>
                                 </connections>
                             </tableView>
                         </subviews>
